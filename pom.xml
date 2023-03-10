@@ -18,7 +18,6 @@
 		<module>class-routine-service</module>
 		<module>cloud-gateway</module>
 		<module>result-service</module>
-		<module>SchoolManagementAPIGateway</module>
 		<module>student-service</module>
 		<module>teacher-service</module>
 		<module>discovery-server</module>
