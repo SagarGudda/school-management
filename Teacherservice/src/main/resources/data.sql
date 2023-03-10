@@ -1,0 +1,7 @@
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(1, 'sagar','192837465','sagargudda@gmail.com','sagar','sagar','1993-03-30');
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(2, 'sagar','192837466','sagargudda@gmail.com','sagar','sagar','1993-03-30');
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(3, 'sagar','192837467','sagargudda@gmail.com','sagar','sagar','1993-03-30');
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(4, 'sagar','192837468','sagargudda@gmail.com','sagar','sagar','1993-03-30');
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(5, 'sagar','192837469','sagargudda@gmail.com','sagar','sagar','1993-03-30');
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(6, 'sagar','192837460','sagargudda@gmail.com','sagar','sagar','1993-03-30');
+insert into teacher(id, name,registration_number,email_id,password,rewrite_password,date_of_birth) values(7, 'sagar','192837461','sagargudda@gmail.com','sagar','sagar','1993-03-30');

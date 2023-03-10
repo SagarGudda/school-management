@@ -1,0 +1,1 @@
+insert into attendance(id, curdate,roll_no,name,day) values(1, '2021-01-26','192837465','sagar','Monday');
