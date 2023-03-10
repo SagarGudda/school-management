@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.school.management</groupId>
-	<artifactId>School_Management</artifactId>
+	<artifactId>school-management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>School_Management</name>
 	<packaging>pom</packaging>
@@ -13,14 +13,14 @@
 		<spring-cloud.version>2020.0.0</spring-cloud.version>
 	</properties>
 	<modules>
-		<module>Admin</module>
-		<module>AttendanceService</module>
-		<module>ClassRoutineService</module>
-		<module>CloudGateway</module>
-		<module>ResultService</module>
+		<module>admin-service</module>
+		<module>attendance-service</module>
+		<module>class-routine-service</module>
+		<module>cloud-gateway</module>
+		<module>result-service</module>
 		<module>SchoolManagementAPIGateway</module>
-		<module>StudentService</module>
-		<module>Teacherservice</module>
+		<module>student-service</module>
+		<module>teacher-service</module>
 		<module>discovery-server</module>
 	</modules>
 
