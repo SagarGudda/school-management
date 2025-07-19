@@ -1,8 +1,8 @@
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(1, 'sagar',17,'192837465','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(2, 'sagar',12,'192837466','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(3, 'sagar',13,'192837467','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(4, 'sagar',14,'192837468','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(5, 'sagar',12,'192837469','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(6, 'sagar',11,'192837460','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(7, 'sagar',13,'192837461','1993-03-30','sagargudda@gmail.com','sagar','sagar');
-insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(8, 'sagar',15,'192837462','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+insert into student(name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values('sagar',17,'192837465','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+-- insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(2, 'sagar',12,'192837466','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+--insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(3, 'sagar',13,'192837467','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+--insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(4, 'sagar',14,'192837468','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+--insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(5, 'sagar',12,'192837469','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+--insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(6, 'sagar',11,'192837460','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+--insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(7, 'sagar',13,'192837461','1993-03-30','sagargudda@gmail.com','sagar','sagar');
+--insert into student(id, name,class,roll_no,date_of_birth,email_id,password,rewrite_password) values(8, 'sagar',15,'192837462','1993-03-30','sagargudda@gmail.com','sagar','sagar');

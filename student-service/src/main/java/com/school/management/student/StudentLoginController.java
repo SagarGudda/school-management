@@ -17,7 +17,7 @@ import com.school.management.student.model.StudentModel;
 @RestController
 public class StudentLoginController {
 	@Autowired
-	StudentService StudentService;
+	StudentService studentService;
 	
 	@GetMapping("/login")
 	public ModelAndView login() {
@@ -27,22 +27,22 @@ public class StudentLoginController {
 	
 	@PostMapping("/saveStudentDetails")
 	public void createStudent(@RequestBody StudentModel tm) {
-		StudentService.saveStudentDetails(tm);
+		studentService.saveStudentDetails(tm);
 	}
 	
 	@GetMapping("/getAllStudentDetails")
 	public List<StudentModel> getAllStudentDetails() {
-		return StudentService.findAllStudentDetails();
+		return studentService.findAllStudentDetails();
 	}
 	
 	@GetMapping("/getStudentDetailsById/{id}")
 	public StudentModel getStudentDetailsById(@PathVariable long id) {
-		return StudentService.findStudentDetailsById(id);
+		return studentService.findStudentDetailsById(id);
 	}
 	
 	@PutMapping("/updateStudentDetails")
-	public void updateStudentDetails(StudentModel tm) {
-		StudentService.updateStudentDetails(tm);
+	public void updateStudentDetails(@RequestBody StudentModel tm) {
+		studentService.updateStudentDetails(tm);
 	}
 
 }

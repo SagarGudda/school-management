@@ -33,6 +33,10 @@ public class StudentDaoImpl implements StudentDao {
 
 	@Override
 	public StudentModel updateStudentDetails(StudentModel tm) {
+		StudentModel studentModel = studentRepository.findByRollNumber(tm.getRollNumber());
+		if(studentModel == null) {
+			throw new RuntimeException("Student not found with rollNumber " + tm.getRollNumber());
+		}
 		return studentRepository.save(tm);
 	}
 
